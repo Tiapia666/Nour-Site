@@ -455,14 +455,14 @@ justify-content: start;
 }
 
 .contact-text-title{
-font-size: 28px;
+font-size: 24px;
 color: white;
 font-family: "Belleza", sans-serif;
 font-weight: 500px;
 }
 
 .contact-text-title a:visited, .contact-text-title a:link, .contact-text-title a:active{
-font-size: 28px;
+font-size: 24px;
 color: white;
 font-family: "Belleza", sans-serif;
 font-weight: 500px;
@@ -470,7 +470,7 @@ font-weight: 500px;
 
 .contact-text-title a:hover{
 color: grey;
-font-size: 28.5px;
+font-size: 24.5px;
 }
 
 .contact-text{
