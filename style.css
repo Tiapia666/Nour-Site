@@ -261,7 +261,7 @@ iframe {
   background-color: #0C0D29;
   position: fixed;
   text-align: left;
-  z-index: 1;
+  z-index: 90;
   opacity: 0;
   left: -500px;
   pointer-events: none;
@@ -273,7 +273,7 @@ iframe {
   pointer-events: fill;
 }
 .menu_icon_box{
-  z-index: 2;
+  z-index: 99;
   width: fit-content;
   height: auto;
   margin: 30px;
@@ -298,6 +298,11 @@ iframe {
 .line-black .line1,
 .line-black .line3 {
   background-color: black;
+}
+
+.line-white .line1,
+.line-white .line3 {
+  background-color: white;
 }
 
 .active .line1{
@@ -363,7 +368,7 @@ nav ul li a{
 
 .text a:visited, .text a:link, .text a:active{
   color: white;
-  font-size: 3rem;
+  font-size: 2rem;
   cursor: pointer;
   transition: background 0.3s;
   font-family: "Belleza";
@@ -409,7 +414,7 @@ src:  url(arabian.ttf);
 
 @media (max-width: 768px) {
     .texto{
-    font-size: 1.5em;
+    font-size: 1.2em;
     }
 }
 
@@ -434,7 +439,7 @@ color: black;
 
 .subtitulo{
 margin-top: 50px;
-font-size: 3em;
+font-size: 2.8em;
 font-family: Arabica;
 color: black;
 }
@@ -443,7 +448,7 @@ color: black;
 font-family: "Belleza", sans-serif;
 font-weight: 400;
 justify-content: left;
-font-size: 2em;
+font-size: 1.6em;
 }
 
 .contato-fundo{

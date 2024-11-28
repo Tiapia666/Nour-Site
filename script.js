@@ -33,6 +33,17 @@ document.addEventListener("scroll", function() {
   }
 });
 
+document.addEventListener("scroll", function() {
+    const azulSection = document.getElementById("azul");
+    const menuIconBox = document.querySelector(".menu_icon_box");
+    const azulTop = azulSection.getBoundingClientRect().top;
+    if (azulTop <= 0) {
+      menuIconBox.classList.add("line-white");
+    } else {
+      menuIconBox.classList.remove("line-white"); 
+    }
+  });
+
 
 
 document.querySelectorAll('.text').forEach(text => {
