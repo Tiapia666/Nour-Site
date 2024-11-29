@@ -274,7 +274,7 @@ iframe {
 }
 .menu_icon_box{
   z-index: 99;
-  width: fit-content;
+  width: 100%;
   height: auto;
   margin: 30px;
   margin-left: 5px;
