@@ -435,21 +435,9 @@ text-align: center;
 }
 
 .nour{
-font-size: 5em;
+font-size: 4em;
 font-family: Arabica;
 color: black;
-}
-
-@media (max-width: 768px) {
-  .nour{
-      font-size: 4.5em; 
-  }
-}
-
-@media (max-width: 480px) {
-  .nour{
-      font-size: 4em; 
-  }
 }
 
 .subtitulo{
