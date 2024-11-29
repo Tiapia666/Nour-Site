@@ -11,7 +11,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Belleza&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-
+    <style>
+      #textoequipe {
+        flex: 1;
+        max-width: 400px;
+        color: white;
+        font-family: 'Belleza', sans-serif;
+        font-size: 27px;
+        text-align: end; 
+      }
+    
+      @media (max-width: 768px) {
+        #textoequipe {
+          text-align: center; 
+          margin: 0 auto; 
+          max-width: 90%; 
+        }
+      }
+    </style>
 </head>
 
 <body> 
@@ -25,7 +42,7 @@
       <div class="box">
           <nav>
               <ul>
-                  <li><a href="#obras">Obras</a></li>
+                  <li><a href="#obras">Produções</a></li>
                   <li><a href="#nour">Sobre nós</a></li>
                   <li><a href="#team">Equipe</a></li>
                   <li><a href="#contact">Contato</a></li>
@@ -87,12 +104,13 @@ NourStudios
     </div>
 
     <section class="fundo_azul d-flex align-items-center justify-content-center" style="min-height: 100vh;" id="azul">
+
       <div class="text-center">
         <div class="titulo nour container-sm mt-1" style="color: white; margin-bottom: 50px;" id="team">Nossa Equipe</div>
     
+        <!-- primeiro carrossel -->
         <div class="container">
-          <!-- primeiro carrossel -->
-          <div style="height: auto; width: 90vw; max-width: 800px;">
+          <div style="height: auto; width: 90vw; max-width: 800px; margin-bottom: 50px;">
             <div id="carousel1" class="carousel slide carousel-fade" data-bs-ride="carousel">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -124,9 +142,12 @@ NourStudios
               </button>
             </div>
           </div>
+        </div>
     
+
+        <div class="container d-flex align-items-center justify-content-between flex-wrap" style="gap: 20px;">
           <!-- segundo carrossel -->
-          <div style="height: auto; width: 90vw; max-width: 400px; margin-top: 50px;">
+          <div style="flex: 1; max-width: 400px;">
             <div id="carousel2" class="carousel slide carousel-fade">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -142,62 +163,62 @@ NourStudios
                   <img src="solo1.jpg" class="d-block w-100 imgcarousel" alt="Slide 1">
                   <div class="carousel-caption d-none d-md-block">
                     <div style="font-family: 'Belleza';">
-                    <h5>Elbio Teixeira</h5>
-                    <p>Profissional do sexo</p>
-                  </div> 
+                      <h5>Elbio Teixeira</h5>
+                      <p>Programador</p>
+                    </div>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="solo2.jpg" class="d-block w-100 imgcarousel" alt="Slide 2">
+                  <img src="solo2.jpg" class="d-block w-100 imgcarousel" alt="Slide 1">
                   <div class="carousel-caption d-none d-md-block">
                     <div style="font-family: 'Belleza';">
-                    <h5>Legenda do Slide 2</h5>
-                    <p>Descrição breve sobre o segundo slide.</p>
-                  </div>
+                      <h5>Benjamin Futata</h5>
+                      <p>Editor</p>
+                    </div>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="solo3.jpg" class="d-block w-100 imgcarousel" alt="Slide 3">
+                  <img src="solo3.jpg" class="d-block w-100 imgcarousel" alt="Slide 1">
                   <div class="carousel-caption d-none d-md-block">
                     <div style="font-family: 'Belleza';">
-                    <h5>Legenda do Slide 3</h5>
-                    <p>Descrição breve sobre o terceiro slide.</p>
-                  </div>
+                      <h5>Guilherme Bastos</h5>
+                      <p> Assistente de Produção</p>
+                    </div>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="solo4.jpg" class="d-block w-100 imgcarousel" alt="Slide 4">
+                  <img src="solo4.jpg" class="d-block w-100 imgcarousel" alt="Slide 1">
                   <div class="carousel-caption d-none d-md-block">
                     <div style="font-family: 'Belleza';">
-                    <h5>Legenda do Slide 4</h5>
-                    <p>Descrição breve sobre o quarto slide.</p>
-                  </div>
+                      <h5>Laura Carvalho</h5>
+                      <p>Produtora</p>
+                    </div>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="solo5.jpg" class="d-block w-100 imgcarousel" alt="Slide 5">
+                  <img src="solo5.jpg" class="d-block w-100 imgcarousel" alt="Slide 2">
                   <div class="carousel-caption d-none d-md-block">
                     <div style="font-family: 'Belleza';">
-                    <h5>Legenda do Slide 5</h5>
-                    <p>Descrição breve sobre o quinto slide.</p>
-                  </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="solo6.jpg" class="d-block w-100 imgcarousel" alt="Slide 6">
-                  <div class="carousel-caption d-none d-md-block">
-                    <div style="font-family: 'Belleza';">
-                    <h5>Legenda do Slide 6</h5>
-                    <p>Descrição breve sobre o sexto slide.</p>
+                    <h5>Letícia de Freitas</h5>
+                    <p>Diretora / Roteirista</p>
                   </div>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="solo7.jpg" class="d-block w-100 imgcarousel" alt="Slide 7">
+                  <img src="solo6.jpg" class="d-block w-100 imgcarousel" alt="Slide 3">
                   <div class="carousel-caption d-none d-md-block">
                     <div style="font-family: 'Belleza';">
-                    <h5>Legenda do Slide 7</h5>
-                    <p>Descrição breve sobre o sétimo slide.</p>
+                    <h5>Thainá Rebouças</h5>
+                    <p> Diretora de Fotografia</p>
+                  </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="solo7.jpg" class="d-block w-100 imgcarousel" alt="Slide 4">
+                  <div class="carousel-caption d-none d-md-block">
+                    <div style="font-family: 'Belleza';">
+                    <h5>Bruno Russo</h5>
+                    <p>Operador de Câmera / Assistente de Fotografia</p>
                   </div>
                   </div>
                 </div>
@@ -212,11 +233,19 @@ NourStudios
               </button>
             </div>
           </div>
+    
+
+          <div id="textoequipe" >
+            <p>
+              Na Nour Studios, valorizamos a experiência audiovisual imersiva, moldada pela autenticidade e vigor criativo de nossa equipe. Cultivamos uma conexão profunda entre os valores culturais que nos definem e você, nosso espectador, tecendo uma identificação única que une produtora e público em uma jornada compartilhada.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
-  <section id="contact" class="contato-fundo" style="margin-top:30px; margin-bottom:30px; padding: 20px;">
+  <section id="contact" class="contato-fundo" style="margin-top:0; margin-bottom:30px; padding: 20px;">
+    <hr style="border: none; height: 1px; background-color: white; margin: 20px 0; width: 100%;">
     <div class="container" style="margin-bottom: 30px;">
       <div class="row gy-3"> 
         <!-- Coluna 1 -->
@@ -260,7 +289,6 @@ NourStudios
             <span class="contact-text-title" style="white-space: nowrap; font-size:16px;">
               nourstudios1910@gmail.com
             </span>
-          </div>
         </div>
       </div>
     </div>

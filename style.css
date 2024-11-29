@@ -188,7 +188,7 @@ iframe {
   position: relative;
   width: 100%;
   height: 100vh;
-  background: url('angustiaa.png'); 
+  background: url('angus.png'); 
   background-size: cover;
   background-position-x: center;
   background-position-y: 10%;
@@ -486,8 +486,29 @@ font-weight: 300px;
 }
 
 .fundo_azul{
-background-color: #04040f ;
+background-color: #04040f;
 width: 100%;
 height: auto;
+padding: 20px;
 }
+
+
+
+#azul .d-flex.flex-wrap {
+  flex-direction: row;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  #azul .d-flex.flex-wrap {
+    flex-direction: column;
+  }
+
+  #azul .d-flex.flex-wrap > div {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+
 
