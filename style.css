@@ -510,5 +510,21 @@ padding: 20px;
   }
 }
 
+hr {
+  border: none;
+  height: 1px;
+  background-color: white;
+  margin: 20px auto; 
+  width: 100%;
+  max-width: 100%; 
+  box-sizing: border-box; 
+}
+
+@media (max-width: 576px) {
+  hr {
+    margin: 10px auto; 
+    width: 90%; 
+  }
+}
 
 
